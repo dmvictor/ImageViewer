@@ -11,8 +11,8 @@ Widget::Widget(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    //Set the directory manually
-    QDir dir ("/home/dmvictor/Pictures");
+    //Set the directory which contains images manually
+    QDir dir ("/Path/to/your/directory");
 
     dir.setSorting(QDir::Time);
 
